@@ -1,0 +1,83 @@
+{
+    "name": "yiisoft/yii2-app-basic",
+    "description": "LMS Dashboard",
+    "keywords": [],
+    "homepage": "http://www.yiiframework.com/",
+    "type": "project",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/yiisoft/yii2/issues?state=open",
+        "forum": "http://www.yiiframework.com/forum/",
+        "wiki": "http://www.yiiframework.com/wiki/",
+        "irc": "irc://irc.freenode.net/yii",
+        "source": "https://github.com/yiisoft/yii2"
+    },
+    "minimum-stability": "dev",
+    "require": {
+      "php": ">=5.4.0",
+        "yiisoft/yii2": "~2.0.14",
+        "yiisoft/yii2-bootstrap": "*",
+        "yiisoft/yii2-swiftmailer": "~2.1.0",
+        "dmstr/yii2-adminlte-asset": "2.*",
+        "understeam/yii2-httpclient": "~1.0",
+        "2amigos/yii2-highcharts-widget": "~1.0",
+        "kartik-v/yii2-grid": "@dev",
+        "2amigos/yii2-date-picker-widget": "~1.0",
+        "cakebake/yii2-actionlog": "*",
+        "kartik-v/yii2-widget-select2": "@dev",
+        "yiisoft/yii2-jui": "^2.0@dev",
+        "2amigos/yii2-date-time-picker-widget": "~1.0",
+        "kartik-v/yii2-widget-datetimepicker": "*",
+        "johnitvn/yii2-ajaxcrud": "*",
+        "softark/yii2-dual-listbox": "1.0.0",
+        "johnitvn/yii2-rbac-plus": "*",
+        "nterms/yii2-pagesize-widget": "*",
+        "bower-asset/highcharts": "^8.0",
+        "bower-asset/moment": "^2.0",
+        "bower-asset/justgage-official": "^1.2",
+        "bower-asset/leaflet": "^1.6",
+        "bower-asset/datatables": "^1.0",
+        "kartik-v/yii2-widget-depdrop": "dev-master",
+        "kartik-v/yii2-date-range": "dev-master",
+        "kartik-v/yii2-widgets": "*",
+        "linslin/yii2-curl": "*",
+        "bower-asset/select2": "^4.0",
+        "npm-asset/moment": "^2.29",
+        "npm-asset/mapbox-gl": "^1.2",
+        "npm-asset/datatables.net-bs": "^1.10",
+        "npm-asset/datatables.net-plugins": "^1.10",
+        "npm-asset/highcharts": "^8.2",
+        "npm-asset/moment-timezone": "^0.5.31",
+        "kartik-v/yii2-export": "^1.4.0",
+        "kartik-v/yii2-widget-typeahead": "*"
+  
+  
+    },
+    "require-dev": {
+        "yiisoft/yii2-debug": "~2.0.0",
+        "yiisoft/yii2-gii": "~2.0.0",
+        "yiisoft/yii2-faker": "~2.0.0",
+  
+        "codeception/base": "^2.2.3",
+        "codeception/verify": "~0.3.1",
+        "codeception/specify": "~0.4.3"
+    },
+    "config": {
+      "process-timeout": 1800,
+      "fxp-asset": {
+          "enabled": false
+      }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "scripts": {
+        "post-create-project-cmd": [
+            "yii\\composer\\Installer::postCreateProject"
+        ]
+    }
+  }
+  
